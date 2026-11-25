@@ -1,6 +1,6 @@
 {
  "application": "PipZen",
- "misAJour": "2026-11-25T23:54:54.714Z",
+ "misAJour": "2026-11-25T23:58:54.742Z",
  "departDemo": "2026-11-25",
  "compteDemo": 50000,
  "risquePct": 1,
@@ -55,7 +55,7 @@
   {
    "marche": "GBP/USD",
    "jour": "2026-11-24",
-   "prix": 1.31118,
+   "prix": 1.31115,
    "vote": -6,
    "avis": [
     {
@@ -88,7 +88,7 @@
   {
    "marche": "USD/JPY",
    "jour": "2026-11-24",
-   "prix": 159.199,
+   "prix": 159.204,
    "vote": -2,
    "avis": [
     {
@@ -121,7 +121,7 @@
   {
    "marche": "Or (XAU/USD)",
    "jour": "2026-11-24",
-   "prix": 3611.8,
+   "prix": 3608,
    "vote": -6,
    "avis": [
     {
@@ -1555,5 +1555,10 @@
    }
   ]
  },
+ "canaux": {
+  "telegram": false,
+  "whatsapp": false
+ },
+ "bienvenueEnvoyee": false,
  "notifies": []
 }
