@@ -1,12 +1,12 @@
 // PipZen - analyse quotidienne
 // 1. télécharge les prix journaliers, 2. fait voter les 6 méthodes, 3. tient le compte démo,
-// 4. écrit app/donnees/etat.json (lu par l'application), 5. prévient par WhatsApp des nouveautés.
+// 4. écrit app/donnees/etat.json (lu par l'application), 5. prévient par Telegram et/ou WhatsApp.
 // Utilisation : node moteur/analyse.js            (analyse + envoi WhatsApp si configuré)
 //               node moteur/analyse.js --sans-envoi (analyse seulement, messages affichés à l'écran)
 const fs = require('fs');
 const path = require('path');
 const { REGLAGE, MARCHES, NOMS_METHODES, lireBougies, rejouer } = require('./moteur');
-const { envoyerWhatsApp, texteOuverture, texteFermeture, texteSignal, texteSortieAnnoncee, texteBienvenue } = require('./whatsapp');
+const { envoyer, texteOuverture, texteFermeture, texteSignal, texteSortieAnnoncee, texteBienvenue } = require('./whatsapp');
 
 const RACINE = path.join(__dirname, '..');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf8'));
@@ -111,7 +111,7 @@ async function main() {
   for (const s of situations) console.log(`  ${s.marche.padEnd(13)} vote ${s.vote > 0 ? '+' : ''}${s.vote}/6 (jour ${s.jour}, prix ${s.prix})`);
   for (const texte of messages) {
     if (SANS_ENVOI) console.log(`\n--- Message WhatsApp (non envoyé) ---\n${texte}`);
-    else await envoyerWhatsApp(texte);
+    else await envoyer(texte);
   }
 }
 

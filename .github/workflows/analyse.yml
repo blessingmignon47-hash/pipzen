@@ -27,8 +27,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Analyser le marché et prévenir sur WhatsApp
+      - name: Analyser le marché et prévenir sur Telegram / WhatsApp
         env:
+          TELEGRAM_JETON: ${{ secrets.TELEGRAM_JETON }}
+          TELEGRAM_ID: ${{ secrets.TELEGRAM_ID }}
           CALLMEBOT_TELEPHONE: ${{ secrets.CALLMEBOT_TELEPHONE }}
           CALLMEBOT_CLE: ${{ secrets.CALLMEBOT_CLE }}
         run: node moteur/analyse.js

@@ -286,13 +286,10 @@ function pageReglages() {
       <li><b>Risque</b> : ${etat.risquePct} % du compte par position, jamais plus.</li>
     </ol>
   </section>
-  <h2>Recevoir les signaux sur WhatsApp</h2>
+  <h2>Recevoir les signaux</h2>
   <section class="carte">
-    <ol class="etapes">
-      <li>Sur le site <b>callmebot.com</b> (service gratuit), rubrique WhatsApp, notez le numéro du service et enregistrez-le dans vos contacts.</li>
-      <li>Envoyez-lui sur WhatsApp le message indiqué sur le site (en anglais : « I allow callmebot to send me messages »).</li>
-      <li>Vous recevez une clé : ajoutez-la avec votre numéro dans les réglages secrets du projet (voir le guide).</li>
-    </ol>
+    <p style="margin-top:0">PipZen envoie chaque entrée et chaque sortie sur <b>Telegram</b>, à votre robot personnel. WhatsApp (CallMeBot) pourra s'ajouter quand le service gratuit aura de nouveau des places.</p>
+    <p class="note">La marche à suivre est dans le fichier GUIDE.md du projet.</p>
   </section>
   <h2>À savoir</h2>
   <section class="carte"><p style="margin:0">PipZen fonctionne en <b>argent fictif</b>. La majorité des particuliers perdent de l'argent sur le forex. Ne passez en réel qu'après 3 à 6 mois de résultats en démo, et seulement avec de l'argent que vous pouvez perdre.</p></section>`;

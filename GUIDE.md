@@ -2,7 +2,7 @@
 
 PipZen analyse chaque matin à 6 h (heure d'Abidjan) l'EUR/USD, le GBP/USD, l'USD/JPY et l'or.
 Six méthodes votent. Quand au moins 4 sont d'accord, PipZen prend position sur son compte démo,
-vous prévient sur WhatsApp et affiche tout dans l'application. Tout est gratuit.
+vous prévient sur Telegram (et WhatsApp plus tard) et affiche tout dans l'application. Tout est gratuit.
 
 **Argent fictif uniquement** pendant 3 à 6 mois avant de penser au réel.
 
@@ -12,7 +12,7 @@ vous prévient sur WhatsApp et affiche tout dans l'application. Tout est gratuit
 |---|---|---|
 | Moteur de décision | `moteur/moteur.js` | Les 6 méthodes, le vote, la perte maximum, la sortie |
 | Analyse du matin | `moteur/analyse.js` | Télécharge les prix, tient le compte démo, écrit `app/donnees/etat.json` |
-| Messages WhatsApp | `moteur/whatsapp.js` | Entrée, sortie et résultat de chaque position |
+| Messages Telegram et WhatsApp | `moteur/whatsapp.js` | Entrée, sortie et résultat de chaque position |
 | Application | `app/` | Web et Android (installable depuis Chrome) |
 | Automatisation | `.github/workflows/analyse.yml` | Lance l'analyse chaque matin sur les serveurs gratuits de GitHub |
 | Tests sur le passé | `backtest/` | Les études qui ont permis de choisir la méthode |
@@ -29,19 +29,28 @@ vous prévient sur WhatsApp et affiche tout dans l'application. Tout est gratuit
 ### 2. Activer le site de l'application
 Dans le dépôt : **Settings → Pages → Source : GitHub Actions**.
 
-### 3. Recevoir les messages WhatsApp (gratuit, CallMeBot)
-1. Sur **callmebot.com**, rubrique WhatsApp, notez le numéro du service et enregistrez-le dans vos contacts.
-2. Envoyez-lui sur WhatsApp le message indiqué sur le site (« I allow callmebot to send me messages »).
-3. Vous recevez une **clé** (apikey).
-4. Dans le dépôt : **Settings → Secrets and variables → Actions → New repository secret**, puis créez deux secrets :
-   - `CALLMEBOT_TELEPHONE` : votre numéro au format international, par exemple `+225XXXXXXXXXX` ;
-   - `CALLMEBOT_CLE` : la clé reçue.
+### 3. Recevoir les signaux sur Telegram (gratuit)
+1. Dans Telegram, cherchez **@BotFather** (avec la coche bleue officielle), ouvrez-le et appuyez sur **Démarrer**.
+2. Envoyez `/newbot`, puis :
+   - un nom, par exemple `PipZen` ;
+   - un identifiant qui finit par `bot`, par exemple `pipzen_blessing_bot`.
+3. BotFather répond avec un **jeton** (une longue suite du genre `123456789:AAH...`). Ne le partagez avec personne.
+4. Ouvrez votre nouveau robot (le lien `t.me/...` donné par BotFather) et appuyez sur **Démarrer**. C'est obligatoire,
+   sinon le robot n'a pas le droit de vous écrire.
+5. Cherchez **@userinfobot**, appuyez sur **Démarrer** : il vous donne votre **Id** (un nombre).
+6. Dans le dépôt GitHub : **Settings → Secrets and variables → Actions → New repository secret**, puis créez deux secrets :
+   - `TELEGRAM_JETON` : le jeton de BotFather ;
+   - `TELEGRAM_ID` : votre Id.
 
    Ces secrets restent cachés, même si le dépôt est public.
 
+WhatsApp (facultatif, plus tard) : le service gratuit CallMeBot est complet pour le moment. Quand il rouvrira
+(callmebot.com, rubrique WhatsApp), ajoutez les secrets `CALLMEBOT_TELEPHONE` (+225...) et `CALLMEBOT_CLE`.
+PipZen enverra alors sur les deux.
+
 ### 4. Première analyse
 Dans le dépôt : **Actions → Analyse quotidienne PipZen → Run workflow**.
-Après 1 à 2 minutes, vous recevez le message « PipZen est en marche » sur WhatsApp.
+Après 1 à 2 minutes, vous recevez le message « PipZen est en marche » sur Telegram.
 Ensuite, l'analyse se lance toute seule chaque matin, du lundi au samedi.
 
 ### 5. Installer l'application sur Android

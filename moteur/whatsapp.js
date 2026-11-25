@@ -67,12 +67,34 @@ function texteBienvenue(demo, situations) {
 
 async function envoyerWhatsApp(texte) {
   const tel = process.env.CALLMEBOT_TELEPHONE, cle = process.env.CALLMEBOT_CLE;
-  if (!tel || !cle) { console.log(`\n(WhatsApp non configuré, message affiché seulement)\n${texte}`); return; }
+  if (!tel || !cle) return false;
   const url = `https://api.callmebot.com/whatsapp.php?phone=${encodeURIComponent(tel)}&apikey=${encodeURIComponent(cle)}&text=${encodeURIComponent(texte)}`;
   const r = await fetch(url);
   if (!r.ok) throw new Error(`WhatsApp a refusé le message (${r.status})`);
   console.log('Message WhatsApp envoyé.');
   await new Promise((ok) => setTimeout(ok, 3000)); // le service demande d'espacer les messages
+  return true;
 }
 
-module.exports = { envoyerWhatsApp, texteOuverture, texteFermeture, texteSignal, texteSortieAnnoncee, texteBienvenue };
+// Telegram : robot personnel créé avec @BotFather (secrets TELEGRAM_JETON et TELEGRAM_ID)
+async function envoyerTelegram(texte) {
+  const jeton = process.env.TELEGRAM_JETON, id = process.env.TELEGRAM_ID;
+  if (!jeton || !id) return false;
+  const poster = (corps) => fetch(`https://api.telegram.org/bot${jeton}/sendMessage`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: id, text: texte, ...corps }),
+  });
+  let r = await poster({ parse_mode: 'Markdown', disable_web_page_preview: true });
+  if (!r.ok) r = await poster({}); // si la mise en forme gêne, on envoie le texte brut
+  if (!r.ok) throw new Error(`Telegram a refusé le message (${r.status}) : vérifiez le jeton, l'identifiant, et que vous avez appuyé sur « Démarrer » dans votre robot`);
+  console.log('Message Telegram envoyé.');
+  return true;
+}
+
+// Envoie sur tous les canaux configurés (Telegram et/ou WhatsApp)
+async function envoyer(texte) {
+  const tg = await envoyerTelegram(texte);
+  const wa = await envoyerWhatsApp(texte);
+  if (!tg && !wa) console.log(`\n(Aucun canal configuré, message affiché seulement)\n${texte}`);
+}
+
+module.exports = { envoyer, envoyerWhatsApp, envoyerTelegram, texteOuverture, texteFermeture, texteSignal, texteSortieAnnoncee, texteBienvenue };
