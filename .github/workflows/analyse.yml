@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 6 * * 1-6'   # 6 h à Abidjan, du lundi au samedi
   workflow_dispatch:         # bouton « Run workflow » pour lancer à la main
+  push:                      # et à chaque mise à jour du code (pas des résultats d'analyse)
+    branches: [main]
+    paths: ['moteur/**', 'app/**', '!app/donnees/**', '.github/workflows/**']
 
 permissions:
   contents: write
