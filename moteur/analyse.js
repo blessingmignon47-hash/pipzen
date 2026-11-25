@@ -87,9 +87,20 @@ async function main() {
 
   const dejaPrevenus = new Set(precedent?.notifies || []);
   const nouveaux = evenements.filter((e) => !dejaPrevenus.has(e.cle));
+  // Canaux configurés (on n'enregistre que oui/non, jamais les secrets eux-mêmes)
+  const canaux = {
+    telegram: Boolean(process.env.TELEGRAM_JETON && process.env.TELEGRAM_ID),
+    whatsapp: Boolean(process.env.CALLMEBOT_TELEPHONE && process.env.CALLMEBOT_CLE),
+  };
+  const peutEnvoyer = canaux.telegram || canaux.whatsapp;
+  if (!peutEnvoyer && !SANS_ENVOI) console.log('::warning::Aucun canal configuré : ajoutez les secrets TELEGRAM_JETON et TELEGRAM_ID (Settings → Secrets and variables → Actions → Repository secrets).');
+
   const messages = [];
-  if (!precedent) messages.push(texteBienvenue(demo, situations));
-  else for (const e of nouveaux) messages.push(e.texte());
+  if (!precedent?.bienvenueEnvoyee) messages.push(texteBienvenue(demo, situations));
+  else if (process.env.ESSAI_CONNEXION === '1') messages.push('*PipZen - test de connexion* ✅\nVous recevrez ici chaque entrée et chaque sortie du compte démo.');
+  for (const e of nouveaux) messages.push(e.texte());
+  // Sans canal, on ne marque rien comme « prévenu » : les messages partiront dès que les secrets seront corrects
+  const envoiReel = peutEnvoyer && !SANS_ENVOI;
 
   const etat = {
     application: 'PipZen',
@@ -102,7 +113,9 @@ async function main() {
     marches: situations,
     demo: { ...demo, bilan: bilan(demo.fermees, demo.ouvertes) },
     historique: { bilan: bilan(histo.fermees), dernieres: histo.fermees.sort((a, b) => b.jourSortie.localeCompare(a.jourSortie)).slice(0, 30) },
-    notifies: [...new Set([...dejaPrevenus, ...evenements.map((e) => e.cle)])],
+    canaux,
+    bienvenueEnvoyee: Boolean(precedent?.bienvenueEnvoyee) || envoiReel,
+    notifies: envoiReel ? [...new Set([...dejaPrevenus, ...evenements.map((e) => e.cle)])] : [...dejaPrevenus],
   };
   fs.mkdirSync(path.dirname(FICHIER_ETAT), { recursive: true });
   fs.writeFileSync(FICHIER_ETAT, JSON.stringify(etat, null, 1));
@@ -110,7 +123,7 @@ async function main() {
   console.log(`Analyse du ${aujourdhui} terminée : ${demo.ouvertes.length} position(s) ouverte(s), ${demo.signaux.length} signal(aux) en attente, ${messages.length} message(s).`);
   for (const s of situations) console.log(`  ${s.marche.padEnd(13)} vote ${s.vote > 0 ? '+' : ''}${s.vote}/6 (jour ${s.jour}, prix ${s.prix})`);
   for (const texte of messages) {
-    if (SANS_ENVOI) console.log(`\n--- Message WhatsApp (non envoyé) ---\n${texte}`);
+    if (!envoiReel) console.log(`\n--- Message (non envoyé) ---\n${texte}`);
     else await envoyer(texte);
   }
 }

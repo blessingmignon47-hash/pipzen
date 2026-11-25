@@ -36,6 +36,7 @@ jobs:
           TELEGRAM_ID: ${{ secrets.TELEGRAM_ID }}
           CALLMEBOT_TELEPHONE: ${{ secrets.CALLMEBOT_TELEPHONE }}
           CALLMEBOT_CLE: ${{ secrets.CALLMEBOT_CLE }}
+          ESSAI_CONNEXION: ${{ github.event_name != 'schedule' && '1' || '0' }}
         run: node moteur/analyse.js
 
       - name: Garder le résultat de l'analyse
