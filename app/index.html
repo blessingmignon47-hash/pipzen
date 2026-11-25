@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PipZen</title>
+  <meta name="description" content="PipZen analyse le forex chaque jour et envoie ses signaux. Compte démo.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icone.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icone.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="entete">
+    <div class="marque"><img src="icone.svg" alt="" width="32" height="32"><span>PipZen</span></div>
+    <span class="badge-demo">Compte démo</span>
+  </header>
+
+  <main id="contenu" aria-live="polite">
+    <p class="chargement">Chargement de l'analyse…</p>
+  </main>
+
+  <nav class="barre" aria-label="Navigation principale">
+    <button data-page="accueil" class="actif"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Accueil</button>
+    <button data-page="marches"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V9m5 10V5m5 14v-7m5 7V8"/></svg>Marchés</button>
+    <button data-page="resultats"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>Résultats</button>
+    <button data-page="reglages"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9l2.1 2.1m10 10 2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>Réglages</button>
+  </nav>
+
+  <div id="infobulle" class="infobulle" role="tooltip" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

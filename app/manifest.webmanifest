@@ -1,0 +1,16 @@
+{
+  "name": "PipZen - signaux forex",
+  "short_name": "PipZen",
+  "description": "Analyse quotidienne du forex par vote de 6 méthodes. Compte démo.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f7f6",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icone.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

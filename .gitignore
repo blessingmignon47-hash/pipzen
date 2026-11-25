@@ -1,0 +1,4 @@
+node_modules/
+backtest/data/
+backtest/package-lock.json
+.env

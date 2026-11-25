@@ -1,0 +1,272 @@
+{
+  "periode": {
+    "du": "2024-02-08",
+    "au": "2026-11-25"
+  },
+  "methodes": {
+    "Suivre la tendance": {
+      "ensemble": {
+        "positions": 360,
+        "parJour": 1.38,
+        "reussite": 44,
+        "rapportGainsPertes": 0.91,
+        "soldeFinal": 847,
+        "resultatPct": -15,
+        "chuteMaxPct": 25,
+        "pireSeriePertes": 11,
+        "moisGagnants": 12,
+        "moisTotal": 34
+      },
+      "premiereMoitie": {
+        "positions": 169,
+        "parJour": 1.34,
+        "reussite": 48,
+        "rapportGainsPertes": 1.01,
+        "soldeFinal": 996,
+        "resultatPct": 0,
+        "chuteMaxPct": 12,
+        "pireSeriePertes": 11,
+        "moisGagnants": 7,
+        "moisTotal": 17
+      },
+      "secondeMoitie": {
+        "positions": 191,
+        "parJour": 1.43,
+        "reussite": 40,
+        "rapportGainsPertes": 0.83,
+        "soldeFinal": 850,
+        "resultatPct": -15,
+        "chuteMaxPct": 24,
+        "pireSeriePertes": 7,
+        "moisGagnants": 5,
+        "moisTotal": 17
+      },
+      "parMarche": {
+        "EUR/USD": {
+          "positions": 103,
+          "parJour": 1.08,
+          "reussite": 39,
+          "rapportGainsPertes": 0.7,
+          "soldeFinal": 839,
+          "resultatPct": -16,
+          "chuteMaxPct": 18,
+          "pireSeriePertes": 7,
+          "moisGagnants": 14,
+          "moisTotal": 33
+        },
+        "GBP/USD": {
+          "positions": 103,
+          "parJour": 1.07,
+          "reussite": 45,
+          "rapportGainsPertes": 0.87,
+          "soldeFinal": 929,
+          "resultatPct": -7,
+          "chuteMaxPct": 13,
+          "pireSeriePertes": 7,
+          "moisGagnants": 16,
+          "moisTotal": 32
+        },
+        "USD/JPY": {
+          "positions": 90,
+          "parJour": 1.06,
+          "reussite": 47,
+          "rapportGainsPertes": 1.31,
+          "soldeFinal": 1105,
+          "resultatPct": 10,
+          "chuteMaxPct": 6,
+          "pireSeriePertes": 10,
+          "moisGagnants": 16,
+          "moisTotal": 29
+        },
+        "Or (XAU/USD)": {
+          "positions": 72,
+          "parJour": 1.04,
+          "reussite": 47,
+          "rapportGainsPertes": 1.14,
+          "soldeFinal": 1036,
+          "resultatPct": 4,
+          "chuteMaxPct": 6,
+          "pireSeriePertes": 7,
+          "moisGagnants": 11,
+          "moisTotal": 27
+        }
+      }
+    },
+    "Cassure de Londres": {
+      "ensemble": {
+        "positions": 1651,
+        "parJour": 2.36,
+        "reussite": 43,
+        "rapportGainsPertes": 1.01,
+        "soldeFinal": 1000,
+        "resultatPct": 0,
+        "chuteMaxPct": 45,
+        "pireSeriePertes": 9,
+        "moisGagnants": 16,
+        "moisTotal": 34
+      },
+      "premiereMoitie": {
+        "positions": 806,
+        "parJour": 2.32,
+        "reussite": 41,
+        "rapportGainsPertes": 0.96,
+        "soldeFinal": 784,
+        "resultatPct": -22,
+        "chuteMaxPct": 33,
+        "pireSeriePertes": 9,
+        "moisGagnants": 9,
+        "moisTotal": 18
+      },
+      "secondeMoitie": {
+        "positions": 845,
+        "parJour": 2.4,
+        "reussite": 45,
+        "rapportGainsPertes": 1.07,
+        "soldeFinal": 1276,
+        "resultatPct": 28,
+        "chuteMaxPct": 39,
+        "pireSeriePertes": 7,
+        "moisGagnants": 7,
+        "moisTotal": 17
+      },
+      "parMarche": {
+        "EUR/USD": {
+          "positions": 547,
+          "parJour": 1,
+          "reussite": 43,
+          "rapportGainsPertes": 1.02,
+          "soldeFinal": 1034,
+          "resultatPct": 3,
+          "chuteMaxPct": 20,
+          "pireSeriePertes": 7,
+          "moisGagnants": 18,
+          "moisTotal": 34
+        },
+        "GBP/USD": {
+          "positions": 599,
+          "parJour": 1,
+          "reussite": 38,
+          "rapportGainsPertes": 0.86,
+          "soldeFinal": 556,
+          "resultatPct": -44,
+          "chuteMaxPct": 53,
+          "pireSeriePertes": 9,
+          "moisGagnants": 11,
+          "moisTotal": 34
+        },
+        "USD/JPY": {
+          "positions": 418,
+          "parJour": 1,
+          "reussite": 46,
+          "rapportGainsPertes": 1.01,
+          "soldeFinal": 998,
+          "resultatPct": 0,
+          "chuteMaxPct": 17,
+          "pireSeriePertes": 7,
+          "moisGagnants": 14,
+          "moisTotal": 34
+        },
+        "Or (XAU/USD)": {
+          "positions": 319,
+          "parJour": 1,
+          "reussite": 42,
+          "rapportGainsPertes": 1.04,
+          "soldeFinal": 1050,
+          "resultatPct": 5,
+          "chuteMaxPct": 30,
+          "pireSeriePertes": 12,
+          "moisGagnants": 17,
+          "moisTotal": 29
+        }
+      }
+    },
+    "Rebond dans la tendance": {
+      "ensemble": {
+        "positions": 642,
+        "parJour": 1.65,
+        "reussite": 40,
+        "rapportGainsPertes": 0.78,
+        "soldeFinal": 469,
+        "resultatPct": -53,
+        "chuteMaxPct": 58,
+        "pireSeriePertes": 10,
+        "moisGagnants": 9,
+        "moisTotal": 34
+      },
+      "premiereMoitie": {
+        "positions": 320,
+        "parJour": 1.62,
+        "reussite": 38,
+        "rapportGainsPertes": 0.73,
+        "soldeFinal": 626,
+        "resultatPct": -37,
+        "chuteMaxPct": 43,
+        "pireSeriePertes": 10,
+        "moisGagnants": 6,
+        "moisTotal": 18
+      },
+      "secondeMoitie": {
+        "positions": 322,
+        "parJour": 1.69,
+        "reussite": 42,
+        "rapportGainsPertes": 0.83,
+        "soldeFinal": 748,
+        "resultatPct": -25,
+        "chuteMaxPct": 35,
+        "pireSeriePertes": 8,
+        "moisGagnants": 4,
+        "moisTotal": 17
+      },
+      "parMarche": {
+        "EUR/USD": {
+          "positions": 204,
+          "parJour": 1.21,
+          "reussite": 37,
+          "rapportGainsPertes": 0.74,
+          "soldeFinal": 746,
+          "resultatPct": -25,
+          "chuteMaxPct": 39,
+          "pireSeriePertes": 12,
+          "moisGagnants": 14,
+          "moisTotal": 34
+        },
+        "GBP/USD": {
+          "positions": 209,
+          "parJour": 1.23,
+          "reussite": 36,
+          "rapportGainsPertes": 0.58,
+          "soldeFinal": 596,
+          "resultatPct": -40,
+          "chuteMaxPct": 42,
+          "pireSeriePertes": 12,
+          "moisGagnants": 10,
+          "moisTotal": 34
+        },
+        "USD/JPY": {
+          "positions": 177,
+          "parJour": 1.23,
+          "reussite": 41,
+          "rapportGainsPertes": 0.85,
+          "soldeFinal": 884,
+          "resultatPct": -12,
+          "chuteMaxPct": 21,
+          "pireSeriePertes": 9,
+          "moisGagnants": 11,
+          "moisTotal": 33
+        },
+        "Or (XAU/USD)": {
+          "positions": 129,
+          "parJour": 1.21,
+          "reussite": 43,
+          "rapportGainsPertes": 0.77,
+          "soldeFinal": 868,
+          "resultatPct": -13,
+          "chuteMaxPct": 20,
+          "pireSeriePertes": 8,
+          "moisGagnants": 13,
+          "moisTotal": 29
+        }
+      }
+    }
+  }
+}

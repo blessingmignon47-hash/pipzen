@@ -1,0 +1,500 @@
+[
+  {
+    "variante": "Cassure 20 jours (perte max 2×)",
+    "choix2015_2020": {
+      "positions": 132,
+      "parSemaine": 0.4,
+      "reussite": 26,
+      "rapport": 0.87,
+      "resultatPct": -11,
+      "parAnPct": -2,
+      "chuteMaxPct": 23,
+      "pireSerie": 17,
+      "dureeMoyenneJours": 23,
+      "anneesGagnantes": "2/7",
+      "parAnnee": {
+        "2015": -3,
+        "2016": -6,
+        "2017": 1,
+        "2018": -1,
+        "2019": -2,
+        "2020": -4,
+        "2021": 4
+      }
+    },
+    "verif2021_2026": {
+      "positions": 133,
+      "parSemaine": 0.4,
+      "reussite": 35,
+      "rapport": 1.03,
+      "resultatPct": 2,
+      "parAnPct": 0,
+      "chuteMaxPct": 15,
+      "pireSerie": 11,
+      "dureeMoyenneJours": 26,
+      "anneesGagnantes": "2/6",
+      "parAnnee": {
+        "2021": -8,
+        "2022": 17,
+        "2023": 6,
+        "2024": -2,
+        "2025": -3,
+        "2026": -7
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -4,
+      "GBP/USD": -1,
+      "USD/JPY": 9,
+      "Or (XAU/USD)": -2
+    }
+  },
+  {
+    "variante": "Cassure 20 jours (perte max 3×)",
+    "choix2015_2020": {
+      "positions": 125,
+      "parSemaine": 0.3,
+      "reussite": 26,
+      "rapport": 0.82,
+      "resultatPct": -10,
+      "parAnPct": -1,
+      "chuteMaxPct": 18,
+      "pireSerie": 17,
+      "dureeMoyenneJours": 27,
+      "anneesGagnantes": "3/7",
+      "parAnnee": {
+        "2015": -2,
+        "2016": -6,
+        "2017": 2,
+        "2018": -2,
+        "2019": 0,
+        "2020": -6,
+        "2021": 3
+      }
+    },
+    "verif2021_2026": {
+      "positions": 119,
+      "parSemaine": 0.4,
+      "reussite": 40,
+      "rapport": 1.13,
+      "resultatPct": 6,
+      "parAnPct": 1,
+      "chuteMaxPct": 8,
+      "pireSerie": 9,
+      "dureeMoyenneJours": 31,
+      "anneesGagnantes": "2/6",
+      "parAnnee": {
+        "2021": -4,
+        "2022": 13,
+        "2023": 2,
+        "2024": -3,
+        "2025": -1,
+        "2026": -2
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -2,
+      "GBP/USD": 0,
+      "USD/JPY": 10,
+      "Or (XAU/USD)": -2
+    }
+  },
+  {
+    "variante": "Cassure 55 jours (perte max 2×)",
+    "choix2015_2020": {
+      "positions": 69,
+      "parSemaine": 0.2,
+      "reussite": 30,
+      "rapport": 0.79,
+      "resultatPct": -10,
+      "parAnPct": -1,
+      "chuteMaxPct": 14,
+      "pireSerie": 8,
+      "dureeMoyenneJours": 41,
+      "anneesGagnantes": "3/7",
+      "parAnnee": {
+        "2015": -3,
+        "2016": 1,
+        "2017": -3,
+        "2018": 1,
+        "2019": -2,
+        "2020": -4,
+        "2021": 1
+      }
+    },
+    "verif2021_2026": {
+      "positions": 61,
+      "parSemaine": 0.2,
+      "reussite": 18,
+      "rapport": 1.63,
+      "resultatPct": 29,
+      "parAnPct": 5,
+      "chuteMaxPct": 13,
+      "pireSerie": 9,
+      "dureeMoyenneJours": 50,
+      "anneesGagnantes": "3/6",
+      "parAnnee": {
+        "2021": -5,
+        "2022": 21,
+        "2023": -6,
+        "2024": 5,
+        "2025": -2,
+        "2026": 16
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -10,
+      "GBP/USD": -5,
+      "USD/JPY": 14,
+      "Or (XAU/USD)": 31
+    }
+  },
+  {
+    "variante": "Cassure 55 jours (perte max 3×)",
+    "choix2015_2020": {
+      "positions": 63,
+      "parSemaine": 0.2,
+      "reussite": 33,
+      "rapport": 0.72,
+      "resultatPct": -10,
+      "parAnPct": -1,
+      "chuteMaxPct": 11,
+      "pireSerie": 6,
+      "dureeMoyenneJours": 52,
+      "anneesGagnantes": "2/7",
+      "parAnnee": {
+        "2015": -3,
+        "2016": 0,
+        "2017": -2,
+        "2018": 1,
+        "2019": -3,
+        "2020": -2,
+        "2021": -1
+      }
+    },
+    "verif2021_2026": {
+      "positions": 52,
+      "parSemaine": 0.2,
+      "reussite": 27,
+      "rapport": 1.93,
+      "resultatPct": 27,
+      "parAnPct": 4,
+      "chuteMaxPct": 8,
+      "pireSerie": 9,
+      "dureeMoyenneJours": 69,
+      "anneesGagnantes": "3/6",
+      "parAnnee": {
+        "2021": -4,
+        "2022": 20,
+        "2023": -5,
+        "2024": 5,
+        "2025": 0,
+        "2026": 11
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -3,
+      "GBP/USD": -2,
+      "USD/JPY": 13,
+      "Or (XAU/USD)": 18
+    }
+  },
+  {
+    "variante": "Moyennes 20/100 jours (perte max 2×)",
+    "choix2015_2020": {
+      "positions": 50,
+      "parSemaine": 0.1,
+      "reussite": 24,
+      "rapport": 1.42,
+      "resultatPct": 16,
+      "parAnPct": 2,
+      "chuteMaxPct": 21,
+      "pireSerie": 11,
+      "dureeMoyenneJours": 60,
+      "anneesGagnantes": "4/7",
+      "parAnnee": {
+        "2015": -1,
+        "2016": 4,
+        "2017": -14,
+        "2018": 3,
+        "2019": -4,
+        "2020": 21,
+        "2021": 7
+      }
+    },
+    "verif2021_2026": {
+      "positions": 51,
+      "parSemaine": 0.2,
+      "reussite": 16,
+      "rapport": 1.15,
+      "resultatPct": 6,
+      "parAnPct": 1,
+      "chuteMaxPct": 27,
+      "pireSerie": 20,
+      "dureeMoyenneJours": 55,
+      "anneesGagnantes": "2/6",
+      "parAnnee": {
+        "2021": -4,
+        "2022": 37,
+        "2023": -8,
+        "2024": -12,
+        "2025": 5,
+        "2026": -12
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -2,
+      "GBP/USD": -6,
+      "USD/JPY": 21,
+      "Or (XAU/USD)": -7
+    }
+  },
+  {
+    "variante": "Moyennes 20/100 jours (perte max 3×)",
+    "choix2015_2020": {
+      "positions": 40,
+      "parSemaine": 0.1,
+      "reussite": 20,
+      "rapport": 0.31,
+      "resultatPct": -19,
+      "parAnPct": -3,
+      "chuteMaxPct": 19,
+      "pireSerie": 10,
+      "dureeMoyenneJours": 48,
+      "anneesGagnantes": "1/7",
+      "parAnnee": {
+        "2015": -1,
+        "2016": -2,
+        "2017": -7,
+        "2018": 3,
+        "2019": -4,
+        "2020": -7,
+        "2021": -1
+      }
+    },
+    "verif2021_2026": {
+      "positions": 39,
+      "parSemaine": 0.1,
+      "reussite": 23,
+      "rapport": 2.68,
+      "resultatPct": 38,
+      "parAnPct": 6,
+      "chuteMaxPct": 13,
+      "pireSerie": 8,
+      "dureeMoyenneJours": 85,
+      "anneesGagnantes": "2/6",
+      "parAnnee": {
+        "2021": -2,
+        "2022": 27,
+        "2023": -4,
+        "2024": -5,
+        "2025": -2,
+        "2026": 24
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -1,
+      "GBP/USD": -3,
+      "USD/JPY": 16,
+      "Or (XAU/USD)": 25
+    }
+  },
+  {
+    "variante": "Moyennes 50/200 jours (perte max 2×)",
+    "choix2015_2020": {
+      "positions": 29,
+      "parSemaine": 0.1,
+      "reussite": 14,
+      "rapport": 0.87,
+      "resultatPct": -4,
+      "parAnPct": -1,
+      "chuteMaxPct": 25,
+      "pireSerie": 13,
+      "dureeMoyenneJours": 86,
+      "anneesGagnantes": "2/7",
+      "parAnnee": {
+        "2015": -1,
+        "2016": -7,
+        "2017": -6,
+        "2018": 2,
+        "2019": -9,
+        "2020": -5,
+        "2021": 21
+      }
+    },
+    "verif2021_2026": {
+      "positions": 35,
+      "parSemaine": 0.1,
+      "reussite": 9,
+      "rapport": 0.46,
+      "resultatPct": -19,
+      "parAnPct": -3,
+      "chuteMaxPct": 24,
+      "pireSerie": 14,
+      "dureeMoyenneJours": 65,
+      "anneesGagnantes": "1/6",
+      "parAnnee": {
+        "2021": -5,
+        "2022": -1,
+        "2023": 2,
+        "2024": -4,
+        "2025": -6,
+        "2026": -4
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -8,
+      "GBP/USD": -12,
+      "USD/JPY": 9,
+      "Or (XAU/USD)": -8
+    }
+  },
+  {
+    "variante": "Moyennes 50/200 jours (perte max 3×)",
+    "choix2015_2020": {
+      "positions": 25,
+      "parSemaine": 0.1,
+      "reussite": 12,
+      "rapport": 0.19,
+      "resultatPct": -18,
+      "parAnPct": -3,
+      "chuteMaxPct": 19,
+      "pireSerie": 11,
+      "dureeMoyenneJours": 80,
+      "anneesGagnantes": "2/6",
+      "parAnnee": {
+        "2016": -7,
+        "2017": -3,
+        "2018": 0,
+        "2019": -4,
+        "2020": -5,
+        "2021": 2
+      }
+    },
+    "verif2021_2026": {
+      "positions": 30,
+      "parSemaine": 0.1,
+      "reussite": 13,
+      "rapport": 0.52,
+      "resultatPct": -12,
+      "parAnPct": -2,
+      "chuteMaxPct": 17,
+      "pireSerie": 15,
+      "dureeMoyenneJours": 90,
+      "anneesGagnantes": "1/5",
+      "parAnnee": {
+        "2021": -5,
+        "2023": 5,
+        "2024": -6,
+        "2025": -2,
+        "2026": -3
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -5,
+      "GBP/USD": -1,
+      "USD/JPY": 4,
+      "Or (XAU/USD)": -9
+    }
+  },
+  {
+    "variante": "Élan 3 mois (perte max 3×)",
+    "choix2015_2020": {
+      "positions": 122,
+      "parSemaine": 0.3,
+      "reussite": 39,
+      "rapport": 0.74,
+      "resultatPct": -13,
+      "parAnPct": -2,
+      "chuteMaxPct": 19,
+      "pireSerie": 10,
+      "dureeMoyenneJours": 40,
+      "anneesGagnantes": "2/7",
+      "parAnnee": {
+        "2015": -1,
+        "2016": -9,
+        "2017": 5,
+        "2018": 0,
+        "2019": -7,
+        "2020": -2,
+        "2021": 1
+      }
+    },
+    "verif2021_2026": {
+      "positions": 117,
+      "parSemaine": 0.4,
+      "reussite": 35,
+      "rapport": 1.2,
+      "resultatPct": 10,
+      "parAnPct": 2,
+      "chuteMaxPct": 9,
+      "pireSerie": 6,
+      "dureeMoyenneJours": 44,
+      "anneesGagnantes": "3/6",
+      "parAnnee": {
+        "2021": -4,
+        "2022": 15,
+        "2023": 1,
+        "2024": -1,
+        "2025": 4,
+        "2026": -5
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -6,
+      "GBP/USD": -7,
+      "USD/JPY": 12,
+      "Or (XAU/USD)": 11
+    }
+  },
+  {
+    "variante": "Élan 6 mois (perte max 3×)",
+    "choix2015_2020": {
+      "positions": 82,
+      "parSemaine": 0.2,
+      "reussite": 28,
+      "rapport": 0.95,
+      "resultatPct": -2,
+      "parAnPct": 0,
+      "chuteMaxPct": 14,
+      "pireSerie": 10,
+      "dureeMoyenneJours": 63,
+      "anneesGagnantes": "3/7",
+      "parAnnee": {
+        "2015": 0,
+        "2016": 3,
+        "2017": 0,
+        "2018": -2,
+        "2019": -4,
+        "2020": -3,
+        "2021": 4
+      }
+    },
+    "verif2021_2026": {
+      "positions": 98,
+      "parSemaine": 0.3,
+      "reussite": 18,
+      "rapport": 1.02,
+      "resultatPct": 1,
+      "parAnPct": 0,
+      "chuteMaxPct": 36,
+      "pireSerie": 20,
+      "dureeMoyenneJours": 52,
+      "anneesGagnantes": "2/6",
+      "parAnnee": {
+        "2021": -2,
+        "2022": 10,
+        "2023": -4,
+        "2024": -10,
+        "2025": -10,
+        "2026": 17
+      }
+    },
+    "verifParMarche": {
+      "EUR/USD": -8,
+      "GBP/USD": -13,
+      "USD/JPY": 0,
+      "Or (XAU/USD)": 23
+    }
+  }
+]

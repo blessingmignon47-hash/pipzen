@@ -1,0 +1,49 @@
+name: Analyse quotidienne PipZen
+
+on:
+  schedule:
+    - cron: '0 6 * * 1-6'   # 6 h à Abidjan, du lundi au samedi
+  workflow_dispatch:         # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: analyse
+  cancel-in-progress: false
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publication.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Analyser le marché et prévenir sur WhatsApp
+        env:
+          CALLMEBOT_TELEPHONE: ${{ secrets.CALLMEBOT_TELEPHONE }}
+          CALLMEBOT_CLE: ${{ secrets.CALLMEBOT_CLE }}
+        run: node moteur/analyse.js
+
+      - name: Garder le résultat de l'analyse
+        run: |
+          git config user.name "PipZen"
+          git config user.email "pipzen@users.noreply.github.com"
+          git add app/donnees/etat.json
+          git diff --cached --quiet || git commit -m "Analyse du $(date -u +%Y-%m-%d)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app
+      - id: publication
+        uses: actions/deploy-pages@v4
