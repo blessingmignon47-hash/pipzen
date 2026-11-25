@@ -1,0 +1,1559 @@
+{
+ "application": "PipZen",
+ "misAJour": "2026-11-25T23:54:54.714Z",
+ "departDemo": "2026-11-25",
+ "compteDemo": 50000,
+ "risquePct": 1,
+ "reglage": {
+  "seuilEntree": 4,
+  "seuilSortie": 2,
+  "multStop": 3,
+  "depart": 220
+ },
+ "methodes": [
+  "Cassure 20 jours",
+  "Cassure 55 jours",
+  "Moyennes 20/100 jours",
+  "Moyennes 50/200 jours",
+  "Élan 3 mois",
+  "Élan 6 mois"
+ ],
+ "marches": [
+  {
+   "marche": "EUR/USD",
+   "jour": "2026-11-24",
+   "prix": 1.09733,
+   "vote": -6,
+   "avis": [
+    {
+     "nom": "Cassure 20 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Cassure 55 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 20/100 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 50/200 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 3 mois",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 6 mois",
+     "avis": -1
+    }
+   ],
+   "variationJour": 0.00743
+  },
+  {
+   "marche": "GBP/USD",
+   "jour": "2026-11-24",
+   "prix": 1.31118,
+   "vote": -6,
+   "avis": [
+    {
+     "nom": "Cassure 20 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Cassure 55 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 20/100 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 50/200 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 3 mois",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 6 mois",
+     "avis": -1
+    }
+   ],
+   "variationJour": 0.00897
+  },
+  {
+   "marche": "USD/JPY",
+   "jour": "2026-11-24",
+   "prix": 159.199,
+   "vote": -2,
+   "avis": [
+    {
+     "nom": "Cassure 20 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Cassure 55 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 20/100 jours",
+     "avis": 1
+    },
+    {
+     "nom": "Moyennes 50/200 jours",
+     "avis": 1
+    },
+    {
+     "nom": "Élan 3 mois",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 6 mois",
+     "avis": -1
+    }
+   ],
+   "variationJour": 0.915
+  },
+  {
+   "marche": "Or (XAU/USD)",
+   "jour": "2026-11-24",
+   "prix": 3611.8,
+   "vote": -6,
+   "avis": [
+    {
+     "nom": "Cassure 20 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Cassure 55 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 20/100 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Moyennes 50/200 jours",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 3 mois",
+     "avis": -1
+    },
+    {
+     "nom": "Élan 6 mois",
+     "avis": -1
+    }
+   ],
+   "variationJour": 113.92
+  }
+ ],
+ "demo": {
+  "ouvertes": [],
+  "fermees": [],
+  "signaux": [],
+  "bilan": {
+   "positions": 0,
+   "gagnantes": 0,
+   "reussitePct": 0,
+   "resultatPct": 0,
+   "latentPct": 0,
+   "chuteMaxPct": 0,
+   "parAnnee": [],
+   "courbe": []
+  }
+ },
+ "historique": {
+  "bilan": {
+   "positions": 226,
+   "gagnantes": 67,
+   "reussitePct": 30,
+   "resultatPct": 17.1,
+   "latentPct": 0,
+   "chuteMaxPct": 12.8,
+   "parAnnee": [
+    {
+     "annee": "2015",
+     "pct": -0.3
+    },
+    {
+     "annee": "2016",
+     "pct": 0
+    },
+    {
+     "annee": "2017",
+     "pct": -2.4
+    },
+    {
+     "annee": "2018",
+     "pct": 1.7
+    },
+    {
+     "annee": "2019",
+     "pct": 1.8
+    },
+    {
+     "annee": "2020",
+     "pct": -6.9
+    },
+    {
+     "annee": "2021",
+     "pct": -4.3
+    },
+    {
+     "annee": "2022",
+     "pct": 19.5
+    },
+    {
+     "annee": "2023",
+     "pct": -1.5
+    },
+    {
+     "annee": "2024",
+     "pct": -7
+    },
+    {
+     "annee": "2025",
+     "pct": -0.9
+    },
+    {
+     "annee": "2026",
+     "pct": 17.3
+    }
+   ],
+   "courbe": [
+    {
+     "jour": "2015-12-11",
+     "pct": -0.3
+    },
+    {
+     "jour": "2016-01-07",
+     "pct": -1.5
+    },
+    {
+     "jour": "2016-01-12",
+     "pct": -1.4
+    },
+    {
+     "jour": "2016-01-29",
+     "pct": -1.7
+    },
+    {
+     "jour": "2016-01-29",
+     "pct": -2.8
+    },
+    {
+     "jour": "2016-02-03",
+     "pct": -2.8
+    },
+    {
+     "jour": "2016-02-16",
+     "pct": -3.1
+    },
+    {
+     "jour": "2016-03-24",
+     "pct": -3.5
+    },
+    {
+     "jour": "2016-05-25",
+     "pct": -1.9
+    },
+    {
+     "jour": "2016-05-26",
+     "pct": -0.8
+    },
+    {
+     "jour": "2016-06-10",
+     "pct": -0.7
+    },
+    {
+     "jour": "2016-06-16",
+     "pct": -1
+    },
+    {
+     "jour": "2016-06-21",
+     "pct": -2
+    },
+    {
+     "jour": "2016-06-24",
+     "pct": -3
+    },
+    {
+     "jour": "2016-06-24",
+     "pct": -2.6
+    },
+    {
+     "jour": "2016-08-03",
+     "pct": -2.8
+    },
+    {
+     "jour": "2016-08-12",
+     "pct": -2.8
+    },
+    {
+     "jour": "2016-09-06",
+     "pct": -3.5
+    },
+    {
+     "jour": "2016-09-14",
+     "pct": -3.7
+    },
+    {
+     "jour": "2016-09-29",
+     "pct": -3
+    },
+    {
+     "jour": "2016-10-03",
+     "pct": -3.2
+    },
+    {
+     "jour": "2016-10-04",
+     "pct": 1.2
+    },
+    {
+     "jour": "2016-10-13",
+     "pct": 1.2
+    },
+    {
+     "jour": "2016-10-28",
+     "pct": 0.7
+    },
+    {
+     "jour": "2016-11-09",
+     "pct": -0.3
+    },
+    {
+     "jour": "2016-11-23",
+     "pct": -0.3
+    },
+    {
+     "jour": "2017-01-25",
+     "pct": 0
+    },
+    {
+     "jour": "2017-02-07",
+     "pct": -0.3
+    },
+    {
+     "jour": "2017-02-17",
+     "pct": 0.3
+    },
+    {
+     "jour": "2017-02-28",
+     "pct": 0.3
+    },
+    {
+     "jour": "2017-03-17",
+     "pct": -0.2
+    },
+    {
+     "jour": "2017-04-04",
+     "pct": -0.9
+    },
+    {
+     "jour": "2017-04-14",
+     "pct": -0.9
+    },
+    {
+     "jour": "2017-04-19",
+     "pct": -1.4
+    },
+    {
+     "jour": "2017-05-03",
+     "pct": -2.4
+    },
+    {
+     "jour": "2017-05-18",
+     "pct": -3.5
+    },
+    {
+     "jour": "2017-05-26",
+     "pct": -3.1
+    },
+    {
+     "jour": "2017-06-12",
+     "pct": -3.3
+    },
+    {
+     "jour": "2017-06-21",
+     "pct": -4.1
+    },
+    {
+     "jour": "2017-07-25",
+     "pct": -4.6
+    },
+    {
+     "jour": "2017-09-06",
+     "pct": -4.1
+    },
+    {
+     "jour": "2017-09-14",
+     "pct": -4.6
+    },
+    {
+     "jour": "2017-09-20",
+     "pct": -5.1
+    },
+    {
+     "jour": "2017-10-19",
+     "pct": -4.8
+    },
+    {
+     "jour": "2017-10-27",
+     "pct": -5
+    },
+    {
+     "jour": "2017-10-30",
+     "pct": -2.4
+    },
+    {
+     "jour": "2017-11-01",
+     "pct": -2.4
+    },
+    {
+     "jour": "2017-11-09",
+     "pct": -2.2
+    },
+    {
+     "jour": "2017-11-16",
+     "pct": -2.2
+    },
+    {
+     "jour": "2017-12-01",
+     "pct": -2.3
+    },
+    {
+     "jour": "2017-12-18",
+     "pct": -2.6
+    },
+    {
+     "jour": "2018-01-01",
+     "pct": -2.6
+    },
+    {
+     "jour": "2018-01-12",
+     "pct": -2.7
+    },
+    {
+     "jour": "2018-01-19",
+     "pct": -2.5
+    },
+    {
+     "jour": "2018-03-02",
+     "pct": -2.3
+    },
+    {
+     "jour": "2018-04-24",
+     "pct": -3.1
+    },
+    {
+     "jour": "2018-04-25",
+     "pct": -3.3
+    },
+    {
+     "jour": "2018-04-25",
+     "pct": -0.1
+    },
+    {
+     "jour": "2018-04-26",
+     "pct": -0.3
+    },
+    {
+     "jour": "2018-04-27",
+     "pct": 0.1
+    },
+    {
+     "jour": "2018-05-25",
+     "pct": 0.1
+    },
+    {
+     "jour": "2018-06-07",
+     "pct": -0.3
+    },
+    {
+     "jour": "2018-06-08",
+     "pct": -0.4
+    },
+    {
+     "jour": "2018-06-13",
+     "pct": -0.5
+    },
+    {
+     "jour": "2018-08-21",
+     "pct": -1.6
+    },
+    {
+     "jour": "2018-10-16",
+     "pct": -0.5
+    },
+    {
+     "jour": "2018-12-24",
+     "pct": -1.1
+    },
+    {
+     "jour": "2018-12-28",
+     "pct": -0.9
+    },
+    {
+     "jour": "2019-01-02",
+     "pct": -0.1
+    },
+    {
+     "jour": "2019-01-11",
+     "pct": -0.5
+    },
+    {
+     "jour": "2019-01-21",
+     "pct": 1
+    },
+    {
+     "jour": "2019-02-05",
+     "pct": 0.7
+    },
+    {
+     "jour": "2019-02-12",
+     "pct": 0.4
+    },
+    {
+     "jour": "2019-02-15",
+     "pct": 0.3
+    },
+    {
+     "jour": "2019-02-15",
+     "pct": -0.2
+    },
+    {
+     "jour": "2019-03-12",
+     "pct": 0.8
+    },
+    {
+     "jour": "2019-03-21",
+     "pct": -0.2
+    },
+    {
+     "jour": "2019-03-29",
+     "pct": -0.3
+    },
+    {
+     "jour": "2019-04-17",
+     "pct": -0.6
+    },
+    {
+     "jour": "2019-04-26",
+     "pct": -1.5
+    },
+    {
+     "jour": "2019-05-03",
+     "pct": -2.5
+    },
+    {
+     "jour": "2019-05-06",
+     "pct": -3.6
+    },
+    {
+     "jour": "2019-06-24",
+     "pct": -4.7
+    },
+    {
+     "jour": "2019-07-03",
+     "pct": -4.7
+    },
+    {
+     "jour": "2019-09-18",
+     "pct": -4.1
+    },
+    {
+     "jour": "2019-10-01",
+     "pct": -4.4
+    },
+    {
+     "jour": "2019-10-15",
+     "pct": -4.1
+    },
+    {
+     "jour": "2019-10-15",
+     "pct": -4.8
+    },
+    {
+     "jour": "2019-10-22",
+     "pct": -5.3
+    },
+    {
+     "jour": "2019-11-06",
+     "pct": 1.2
+    },
+    {
+     "jour": "2019-12-13",
+     "pct": 0.9
+    },
+    {
+     "jour": "2020-01-02",
+     "pct": 0.3
+    },
+    {
+     "jour": "2020-01-06",
+     "pct": -0.1
+    },
+    {
+     "jour": "2020-01-07",
+     "pct": 0.1
+    },
+    {
+     "jour": "2020-01-09",
+     "pct": 0.6
+    },
+    {
+     "jour": "2020-01-28",
+     "pct": 0.3
+    },
+    {
+     "jour": "2020-02-04",
+     "pct": 0
+    },
+    {
+     "jour": "2020-02-24",
+     "pct": -0.1
+    },
+    {
+     "jour": "2020-02-28",
+     "pct": -1.2
+    },
+    {
+     "jour": "2020-02-28",
+     "pct": -2.2
+    },
+    {
+     "jour": "2020-03-04",
+     "pct": -2.4
+    },
+    {
+     "jour": "2020-03-16",
+     "pct": -3.7
+    },
+    {
+     "jour": "2020-03-17",
+     "pct": -4.7
+    },
+    {
+     "jour": "2020-03-18",
+     "pct": -5.7
+    },
+    {
+     "jour": "2020-03-23",
+     "pct": -5.5
+    },
+    {
+     "jour": "2020-06-02",
+     "pct": -6.4
+    },
+    {
+     "jour": "2020-06-04",
+     "pct": -6.6
+    },
+    {
+     "jour": "2020-06-10",
+     "pct": -7.4
+    },
+    {
+     "jour": "2020-07-01",
+     "pct": -7.6
+    },
+    {
+     "jour": "2020-09-22",
+     "pct": -8.6
+    },
+    {
+     "jour": "2020-10-26",
+     "pct": -7.5
+    },
+    {
+     "jour": "2020-10-29",
+     "pct": -6
+    },
+    {
+     "jour": "2021-01-08",
+     "pct": -7.1
+    },
+    {
+     "jour": "2021-02-08",
+     "pct": -6.6
+    },
+    {
+     "jour": "2021-02-19",
+     "pct": -6.7
+    },
+    {
+     "jour": "2021-03-03",
+     "pct": -6
+    },
+    {
+     "jour": "2021-04-05",
+     "pct": -6.2
+    },
+    {
+     "jour": "2021-05-07",
+     "pct": -7.1
+    },
+    {
+     "jour": "2021-06-16",
+     "pct": -8.1
+    },
+    {
+     "jour": "2021-06-17",
+     "pct": -9.2
+    },
+    {
+     "jour": "2021-07-02",
+     "pct": -7.3
+    },
+    {
+     "jour": "2021-08-27",
+     "pct": -8.3
+    },
+    {
+     "jour": "2021-09-22",
+     "pct": -7.4
+    },
+    {
+     "jour": "2021-09-22",
+     "pct": -7.7
+    },
+    {
+     "jour": "2021-10-15",
+     "pct": -8.1
+    },
+    {
+     "jour": "2021-10-21",
+     "pct": -8.7
+    },
+    {
+     "jour": "2021-10-21",
+     "pct": -8.9
+    },
+    {
+     "jour": "2021-11-02",
+     "pct": -9
+    },
+    {
+     "jour": "2021-11-08",
+     "pct": -9.8
+    },
+    {
+     "jour": "2021-11-23",
+     "pct": -10.4
+    },
+    {
+     "jour": "2021-12-29",
+     "pct": -10.3
+    },
+    {
+     "jour": "2022-01-11",
+     "pct": -10.6
+    },
+    {
+     "jour": "2022-01-28",
+     "pct": -11.2
+    },
+    {
+     "jour": "2022-05-11",
+     "pct": -10.9
+    },
+    {
+     "jour": "2022-05-25",
+     "pct": -11.5
+    },
+    {
+     "jour": "2022-11-14",
+     "pct": -5.1
+    },
+    {
+     "jour": "2022-11-15",
+     "pct": -4.8
+    },
+    {
+     "jour": "2022-11-18",
+     "pct": -1.9
+    },
+    {
+     "jour": "2022-12-02",
+     "pct": 9.5
+    },
+    {
+     "jour": "2022-12-13",
+     "pct": 9.6
+    },
+    {
+     "jour": "2022-12-15",
+     "pct": 9.5
+    },
+    {
+     "jour": "2022-12-19",
+     "pct": 9.1
+    },
+    {
+     "jour": "2022-12-19",
+     "pct": 9.4
+    },
+    {
+     "jour": "2022-12-29",
+     "pct": 9.2
+    },
+    {
+     "jour": "2023-02-07",
+     "pct": 9.1
+    },
+    {
+     "jour": "2023-03-09",
+     "pct": 8.8
+    },
+    {
+     "jour": "2023-03-09",
+     "pct": 8.2
+    },
+    {
+     "jour": "2023-03-13",
+     "pct": 7.8
+    },
+    {
+     "jour": "2023-03-15",
+     "pct": 7.3
+    },
+    {
+     "jour": "2023-06-20",
+     "pct": 9
+    },
+    {
+     "jour": "2023-09-04",
+     "pct": 8.7
+    },
+    {
+     "jour": "2023-09-08",
+     "pct": 8.8
+    },
+    {
+     "jour": "2023-10-18",
+     "pct": 7.7
+    },
+    {
+     "jour": "2023-10-24",
+     "pct": 7.7
+    },
+    {
+     "jour": "2023-11-13",
+     "pct": 7
+    },
+    {
+     "jour": "2023-11-16",
+     "pct": 6.2
+    },
+    {
+     "jour": "2023-11-16",
+     "pct": 5.6
+    },
+    {
+     "jour": "2023-12-05",
+     "pct": 7.9
+    },
+    {
+     "jour": "2023-12-21",
+     "pct": 7.7
+    },
+    {
+     "jour": "2024-01-04",
+     "pct": 7.5
+    },
+    {
+     "jour": "2024-02-06",
+     "pct": 6.8
+    },
+    {
+     "jour": "2024-02-06",
+     "pct": 6.5
+    },
+    {
+     "jour": "2024-02-21",
+     "pct": 6.7
+    },
+    {
+     "jour": "2024-02-26",
+     "pct": 6.8
+    },
+    {
+     "jour": "2024-03-01",
+     "pct": 6.6
+    },
+    {
+     "jour": "2024-03-26",
+     "pct": 6
+    },
+    {
+     "jour": "2024-04-12",
+     "pct": 4.9
+    },
+    {
+     "jour": "2024-04-19",
+     "pct": 5
+    },
+    {
+     "jour": "2024-05-03",
+     "pct": 4.7
+    },
+    {
+     "jour": "2024-05-13",
+     "pct": 4.7
+    },
+    {
+     "jour": "2024-05-27",
+     "pct": 4.8
+    },
+    {
+     "jour": "2024-06-11",
+     "pct": 4.5
+    },
+    {
+     "jour": "2024-06-18",
+     "pct": 4.4
+    },
+    {
+     "jour": "2024-06-28",
+     "pct": 4.1
+    },
+    {
+     "jour": "2024-07-03",
+     "pct": 4.3
+    },
+    {
+     "jour": "2024-07-10",
+     "pct": 3.9
+    },
+    {
+     "jour": "2024-07-26",
+     "pct": 3.6
+    },
+    {
+     "jour": "2024-07-26",
+     "pct": 4.2
+    },
+    {
+     "jour": "2024-07-30",
+     "pct": 3.9
+    },
+    {
+     "jour": "2024-10-17",
+     "pct": 4.1
+    },
+    {
+     "jour": "2024-10-23",
+     "pct": 3.4
+    },
+    {
+     "jour": "2024-11-14",
+     "pct": 3
+    },
+    {
+     "jour": "2024-11-29",
+     "pct": 2
+    },
+    {
+     "jour": "2024-12-18",
+     "pct": 1.7
+    },
+    {
+     "jour": "2024-12-25",
+     "pct": 0.7
+    },
+    {
+     "jour": "2025-02-05",
+     "pct": -0.3
+    },
+    {
+     "jour": "2025-02-24",
+     "pct": -0.7
+    },
+    {
+     "jour": "2025-03-06",
+     "pct": -1.7
+    },
+    {
+     "jour": "2025-07-23",
+     "pct": -1.9
+    },
+    {
+     "jour": "2025-08-01",
+     "pct": -1
+    },
+    {
+     "jour": "2025-08-22",
+     "pct": -1.3
+    },
+    {
+     "jour": "2025-08-28",
+     "pct": -1.3
+    },
+    {
+     "jour": "2025-09-01",
+     "pct": -1.3
+    },
+    {
+     "jour": "2025-09-10",
+     "pct": -1.5
+    },
+    {
+     "jour": "2025-09-23",
+     "pct": -1.6
+    },
+    {
+     "jour": "2025-10-06",
+     "pct": -1.2
+    },
+    {
+     "jour": "2025-11-25",
+     "pct": 0.1
+    },
+    {
+     "jour": "2025-11-28",
+     "pct": -0.2
+    },
+    {
+     "jour": "2026-01-06",
+     "pct": -0.4
+    },
+    {
+     "jour": "2026-01-19",
+     "pct": -0.8
+    },
+    {
+     "jour": "2026-01-19",
+     "pct": -0.8
+    },
+    {
+     "jour": "2026-01-29",
+     "pct": -0.2
+    },
+    {
+     "jour": "2026-03-02",
+     "pct": -1.3
+    },
+    {
+     "jour": "2026-03-05",
+     "pct": -1.6
+    },
+    {
+     "jour": "2026-03-27",
+     "pct": 28.4
+    },
+    {
+     "jour": "2026-04-09",
+     "pct": 27.9
+    },
+    {
+     "jour": "2026-04-09",
+     "pct": 27.4
+    },
+    {
+     "jour": "2026-05-18",
+     "pct": 26.7
+    },
+    {
+     "jour": "2026-05-18",
+     "pct": 26
+    },
+    {
+     "jour": "2026-07-08",
+     "pct": 25.6
+    },
+    {
+     "jour": "2026-07-10",
+     "pct": 25.5
+    },
+    {
+     "jour": "2026-07-14",
+     "pct": 25.6
+    },
+    {
+     "jour": "2026-07-17",
+     "pct": 25.3
+    },
+    {
+     "jour": "2026-08-04",
+     "pct": 25
+    },
+    {
+     "jour": "2026-08-07",
+     "pct": 24
+    },
+    {
+     "jour": "2026-08-07",
+     "pct": 23.3
+    },
+    {
+     "jour": "2026-08-07",
+     "pct": 22.3
+    },
+    {
+     "jour": "2026-08-31",
+     "pct": 21.5
+    },
+    {
+     "jour": "2026-09-16",
+     "pct": 21
+    },
+    {
+     "jour": "2026-09-17",
+     "pct": 19.9
+    },
+    {
+     "jour": "2026-09-24",
+     "pct": 18.9
+    },
+    {
+     "jour": "2026-09-28",
+     "pct": 18.9
+    },
+    {
+     "jour": "2026-09-30",
+     "pct": 18.9
+    },
+    {
+     "jour": "2026-10-28",
+     "pct": 18.7
+    },
+    {
+     "jour": "2026-11-04",
+     "pct": 17.7
+    },
+    {
+     "jour": "2026-11-13",
+     "pct": 17.1
+    }
+   ]
+  },
+  "dernieres": [
+   {
+    "marche": "USD/JPY",
+    "sens": -1,
+    "jourSignal": "2026-11-06",
+    "jourEntree": "2026-11-09",
+    "entree": 158.198,
+    "stop": 161.046,
+    "confiance": 4,
+    "jourSortie": "2026-11-13",
+    "sortie": 159.87,
+    "nuits": 4,
+    "R": -0.6,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-09-30",
+    "jourEntree": "2026-10-01",
+    "entree": 1.32637,
+    "stop": 1.34773,
+    "confiance": 4,
+    "jourSortie": "2026-11-04",
+    "sortie": 1.34773,
+    "nuits": 24,
+    "R": -1.07,
+    "motif": "Perte maximum atteinte"
+   },
+   {
+    "marche": "USD/JPY",
+    "sens": -1,
+    "jourSignal": "2026-09-28",
+    "jourEntree": "2026-09-29",
+    "entree": 157.349,
+    "stop": 162.071,
+    "confiance": 4,
+    "jourSortie": "2026-10-28",
+    "sortie": 157.955,
+    "nuits": 21,
+    "R": -0.16,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-09-25",
+    "jourEntree": "2026-09-28",
+    "entree": 1.32287,
+    "stop": 1.3447,
+    "confiance": 4,
+    "jourSortie": "2026-09-30",
+    "sortie": 1.32307,
+    "nuits": 2,
+    "R": -0.02,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "Or (XAU/USD)",
+    "sens": 1,
+    "jourSignal": "2026-09-16",
+    "jourEntree": "2026-09-17",
+    "entree": 4301.4,
+    "stop": 3967.14,
+    "confiance": 4,
+    "jourSortie": "2026-09-28",
+    "sortie": 4315,
+    "nuits": 7,
+    "R": 0.04,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "USD/JPY",
+    "sens": -1,
+    "jourSignal": "2026-09-08",
+    "jourEntree": "2026-09-09",
+    "entree": 153.424,
+    "stop": 158.809,
+    "confiance": 4,
+    "jourSortie": "2026-09-24",
+    "sortie": 158.809,
+    "nuits": 11,
+    "R": -1.02,
+    "motif": "Perte maximum atteinte"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": 1,
+    "jourSignal": "2026-08-17",
+    "jourEntree": "2026-08-18",
+    "entree": 1.35507,
+    "stop": 1.3346,
+    "confiance": 4,
+    "jourSortie": "2026-09-17",
+    "sortie": 1.3346,
+    "nuits": 22,
+    "R": -1.06,
+    "motif": "Perte maximum atteinte"
+   },
+   {
+    "marche": "Or (XAU/USD)",
+    "sens": 1,
+    "jourSignal": "2026-09-03",
+    "jourEntree": "2026-09-04",
+    "entree": 4522,
+    "stop": 4180.23,
+    "confiance": 4,
+    "jourSortie": "2026-09-16",
+    "sortie": 4333.5,
+    "nuits": 7,
+    "R": -0.56,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "Or (XAU/USD)",
+    "sens": 1,
+    "jourSignal": "2026-08-24",
+    "jourEntree": "2026-08-25",
+    "entree": 4710.1,
+    "stop": 4396.24,
+    "confiance": 4,
+    "jourSortie": "2026-08-31",
+    "sortie": 4483.2,
+    "nuits": 4,
+    "R": -0.73,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": -1,
+    "jourSignal": "2026-06-24",
+    "jourEntree": "2026-06-25",
+    "entree": 1.13534,
+    "stop": 1.15639,
+    "confiance": 5,
+    "jourSortie": "2026-08-07",
+    "sortie": 1.15639,
+    "nuits": 31,
+    "R": -1.07,
+    "motif": "Perte maximum atteinte"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-07-28",
+    "jourEntree": "2026-07-29",
+    "entree": 1.32839,
+    "stop": 1.35362,
+    "confiance": 4,
+    "jourSortie": "2026-08-07",
+    "sortie": 1.34541,
+    "nuits": 7,
+    "R": -0.7,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "Or (XAU/USD)",
+    "sens": -1,
+    "jourSignal": "2026-06-24",
+    "jourEntree": "2026-06-25",
+    "entree": 4019,
+    "stop": 4409.11,
+    "confiance": 4,
+    "jourSortie": "2026-08-07",
+    "sortie": 4409.11,
+    "nuits": 30,
+    "R": -1.01,
+    "motif": "Perte maximum atteinte"
+   },
+   {
+    "marche": "USD/JPY",
+    "sens": 1,
+    "jourSignal": "2026-03-09",
+    "jourEntree": "2026-03-10",
+    "entree": 157.856,
+    "stop": 153.714,
+    "confiance": 5,
+    "jourSortie": "2026-08-04",
+    "sortie": 157.539,
+    "nuits": 105,
+    "R": -0.23,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-07-14",
+    "jourEntree": "2026-07-15",
+    "entree": 1.33949,
+    "stop": 1.36243,
+    "confiance": 4,
+    "jourSortie": "2026-07-17",
+    "sortie": 1.34785,
+    "nuits": 2,
+    "R": -0.38,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-07-10",
+    "jourEntree": "2026-07-13",
+    "entree": 1.33865,
+    "stop": 1.36184,
+    "confiance": 4,
+    "jourSortie": "2026-07-14",
+    "sortie": 1.33511,
+    "nuits": 1,
+    "R": 0.14,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-07-08",
+    "jourEntree": "2026-07-09",
+    "entree": 1.33941,
+    "stop": 1.36323,
+    "confiance": 4,
+    "jourSortie": "2026-07-10",
+    "sortie": 1.34138,
+    "nuits": 1,
+    "R": -0.09,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-06-29",
+    "jourEntree": "2026-06-30",
+    "entree": 1.32528,
+    "stop": 1.35036,
+    "confiance": 5,
+    "jourSortie": "2026-07-08",
+    "sortie": 1.33449,
+    "nuits": 6,
+    "R": -0.39,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": 1,
+    "jourSignal": "2026-04-20",
+    "jourEntree": "2026-04-21",
+    "entree": 1.17838,
+    "stop": 1.15397,
+    "confiance": 5,
+    "jourSortie": "2026-05-18",
+    "sortie": 1.16171,
+    "nuits": 19,
+    "R": -0.72,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": 1,
+    "jourSignal": "2026-04-21",
+    "jourEntree": "2026-04-22",
+    "entree": 1.35122,
+    "stop": 1.3209,
+    "confiance": 5,
+    "jourSortie": "2026-05-18",
+    "sortie": 1.33106,
+    "nuits": 18,
+    "R": -0.7,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": -1,
+    "jourSignal": "2026-03-12",
+    "jourEntree": "2026-03-13",
+    "entree": 1.15222,
+    "stop": 1.18022,
+    "confiance": 4,
+    "jourSortie": "2026-04-09",
+    "sortie": 1.16581,
+    "nuits": 19,
+    "R": -0.52,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-03-31",
+    "jourEntree": "2026-04-01",
+    "entree": 1.3241,
+    "stop": 1.35913,
+    "confiance": 4,
+    "jourSortie": "2026-04-09",
+    "sortie": 1.33941,
+    "nuits": 6,
+    "R": -0.45,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "Or (XAU/USD)",
+    "sens": 1,
+    "jourSignal": "2023-11-16",
+    "jourEntree": "2023-11-17",
+    "entree": 1984.2,
+    "stop": 1907.48,
+    "confiance": 5,
+    "jourSortie": "2026-03-27",
+    "sortie": 4371.8,
+    "nuits": 592,
+    "R": 29.96,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": 1,
+    "jourSignal": "2026-01-21",
+    "jourEntree": "2026-01-22",
+    "entree": 1.16739,
+    "stop": 1.14844,
+    "confiance": 4,
+    "jourSortie": "2026-03-05",
+    "sortie": 1.16352,
+    "nuits": 30,
+    "R": -0.28,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": 1,
+    "jourSignal": "2026-01-23",
+    "jourEntree": "2026-01-26",
+    "entree": 1.36625,
+    "stop": 1.34014,
+    "confiance": 5,
+    "jourSortie": "2026-03-02",
+    "sortie": 1.34014,
+    "nuits": 25,
+    "R": -1.06,
+    "motif": "Perte maximum atteinte"
+   },
+   {
+    "marche": "USD/JPY",
+    "sens": 1,
+    "jourSignal": "2025-10-06",
+    "jourEntree": "2025-10-07",
+    "entree": 150.331,
+    "stop": 145.879,
+    "confiance": 4,
+    "jourSortie": "2026-01-29",
+    "sortie": 153.124,
+    "nuits": 80,
+    "R": 0.52,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": 1,
+    "jourSignal": "2026-01-06",
+    "jourEntree": "2026-01-07",
+    "entree": 1.16878,
+    "stop": 1.15189,
+    "confiance": 4,
+    "jourSortie": "2026-01-19",
+    "sortie": 1.16239,
+    "nuits": 8,
+    "R": -0.41,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": 1,
+    "jourSignal": "2026-01-09",
+    "jourEntree": "2026-01-12",
+    "entree": 1.33944,
+    "stop": 1.31471,
+    "confiance": 5,
+    "jourSortie": "2026-01-19",
+    "sortie": 1.34034,
+    "nuits": 5,
+    "R": 0.02,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": 1,
+    "jourSignal": "2025-12-11",
+    "jourEntree": "2025-12-12",
+    "entree": 1.17414,
+    "stop": 1.15591,
+    "confiance": 4,
+    "jourSortie": "2026-01-06",
+    "sortie": 1.17165,
+    "nuits": 15,
+    "R": -0.18,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2025-10-30",
+    "jourEntree": "2025-10-31",
+    "entree": 1.31601,
+    "stop": 1.34523,
+    "confiance": 4,
+    "jourSortie": "2025-11-28",
+    "sortie": 1.32414,
+    "nuits": 20,
+    "R": -0.32,
+    "motif": "La tendance s'essouffle"
+   },
+   {
+    "marche": "EUR/USD",
+    "sens": 1,
+    "jourSignal": "2025-04-04",
+    "jourEntree": "2025-04-07",
+    "entree": 1.09845,
+    "stop": 1.06349,
+    "confiance": 5,
+    "jourSortie": "2025-11-25",
+    "sortie": 1.15207,
+    "nuits": 164,
+    "R": 1.34,
+    "motif": "La tendance s'essouffle"
+   }
+  ]
+ },
+ "notifies": []
+}
