@@ -1,5 +1,5 @@
 // PipZen - fonctionne même sans réseau (dernière analyse gardée en mémoire)
-const CACHE = 'pipzen-v1';
+const CACHE = 'pipzen-v2';
 const FICHIERS = ['./', 'index.html', 'style.css', 'app.js', 'icone.svg', 'manifest.webmanifest'];
 
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FICHIERS))); self.skipWaiting(); });
