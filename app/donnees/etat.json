@@ -1,6 +1,6 @@
 {
  "application": "PipZen",
- "misAJour": "2026-11-26T00:03:27.830Z",
+ "misAJour": "2026-11-26T14:09:01.134Z",
  "departDemo": "2026-11-25",
  "compteDemo": 50000,
  "risquePct": 1,
@@ -21,8 +21,8 @@
  "marches": [
   {
    "marche": "EUR/USD",
-   "jour": "2026-11-24",
-   "prix": 1.09745,
+   "jour": "2026-11-25",
+   "prix": 1.09902,
    "vote": -6,
    "avis": [
     {
@@ -50,12 +50,12 @@
      "avis": -1
     }
    ],
-   "variationJour": 0.00743
+   "variationJour": 0.00742
   },
   {
    "marche": "GBP/USD",
-   "jour": "2026-11-24",
-   "prix": 1.31127,
+   "jour": "2026-11-25",
+   "prix": 1.31196,
    "vote": -6,
    "avis": [
     {
@@ -83,12 +83,12 @@
      "avis": -1
     }
    ],
-   "variationJour": 0.00897
+   "variationJour": 0.00889
   },
   {
    "marche": "USD/JPY",
-   "jour": "2026-11-24",
-   "prix": 159.191,
+   "jour": "2026-11-25",
+   "prix": 159.189,
    "vote": -2,
    "avis": [
     {
@@ -116,12 +116,12 @@
      "avis": -1
     }
    ],
-   "variationJour": 0.915
+   "variationJour": 0.906
   },
   {
    "marche": "Or (XAU/USD)",
    "jour": "2026-11-25",
-   "prix": 3607.9,
+   "prix": 3599.6,
    "vote": -6,
    "avis": [
     {
@@ -149,23 +149,53 @@
      "avis": -1
     }
    ],
-   "variationJour": 108.58
+   "variationJour": 118.66
   }
  ],
  "demo": {
-  "ouvertes": [],
-  "fermees": [],
-  "signaux": [
+  "ouvertes": [
+   {
+    "marche": "EUR/USD",
+    "sens": -1,
+    "jourSignal": "2026-11-25",
+    "jourEntree": "2026-11-26",
+    "entree": 1.09782,
+    "stop": 1.12008,
+    "confiance": 6,
+    "ecartStop": 0.022263610616429647,
+    "prixActuel": 1.09902,
+    "Rlatent": -0.06,
+    "sortieAnnoncee": false
+   },
+   {
+    "marche": "GBP/USD",
+    "sens": -1,
+    "jourSignal": "2026-11-25",
+    "jourEntree": "2026-11-26",
+    "entree": 1.31191,
+    "stop": 1.33858,
+    "confiance": 6,
+    "ecartStop": 0.026672832057468315,
+    "prixActuel": 1.31196,
+    "Rlatent": -0.01,
+    "sortieAnnoncee": false
+   },
    {
     "marche": "Or (XAU/USD)",
     "sens": -1,
     "jourSignal": "2026-11-25",
+    "jourEntree": "2026-11-26",
+    "entree": 3619.8,
+    "stop": 3975.78,
     "confiance": 6,
-    "prixIndicatif": 3607.9,
-    "stopIndicatif": 3933.65,
-    "ecartStop": 325.750030228523
+    "ecartStop": 355.978545853523,
+    "prixActuel": 3599.6,
+    "Rlatent": 0.06,
+    "sortieAnnoncee": false
    }
   ],
+  "fermees": [],
+  "signaux": [],
   "bilan": {
    "positions": 0,
    "gagnantes": 0,
@@ -1571,6 +1601,9 @@
  },
  "bienvenueEnvoyee": true,
  "notifies": [
-  "signal:Or (XAU/USD):2026-11-25"
+  "signal:Or (XAU/USD):2026-11-25",
+  "ouverture:EUR/USD:2026-11-26",
+  "ouverture:GBP/USD:2026-11-26",
+  "ouverture:Or (XAU/USD):2026-11-26"
  ]
 }
