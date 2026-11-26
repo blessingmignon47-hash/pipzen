@@ -58,7 +58,7 @@ function texteBienvenue(demo, situations) {
   const lignes = situations.map((s) => `• ${s.marche} : ${s.vote > 0 ? '+' : ''}${s.vote}/6`);
   return [
     '*PipZen est en marche* 🧘',
-    'Analyse chaque matin à 6 h. Vous recevrez un message à chaque entrée et chaque sortie.',
+    'Analyse chaque jour à partir de 6 h. Vous recevrez un message à chaque entrée et chaque sortie.',
     `Positions démo ouvertes : ${demo.ouvertes.length}`,
     'Votes du jour (+ = hausse, - = baisse, 4 ou plus = position) :',
     ...lignes,

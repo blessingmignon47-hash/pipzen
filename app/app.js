@@ -278,7 +278,7 @@ function pageReglages() {
   </section>
   <h2>Comment PipZen décide</h2>
   <section class="carte">
-    <p style="margin-top:0">Chaque matin à 6 h, PipZen fait voter 6 méthodes sur les prix de la veille : ${etat.methodes.map(echap).join(', ')}.</p>
+    <p style="margin-top:0">Chaque jour à partir de 6 h, PipZen fait voter 6 méthodes sur les prix de la veille : ${etat.methodes.map(echap).join(', ')}.</p>
     <ol class="etapes">
       <li><b>Entrée</b> : au moins ${etat.reglage.seuilEntree} méthodes sur 6 d'accord.</li>
       <li><b>Perte maximum</b> : ${etat.reglage.multStop} fois la variation moyenne d'une journée.</li>
