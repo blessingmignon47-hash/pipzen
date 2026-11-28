@@ -1,6 +1,6 @@
 {
  "application": "PipZen",
- "misAJour": "2026-11-28T01:29:18.181Z",
+ "misAJour": "2026-11-28T15:39:52.543Z",
  "departDemo": "2026-11-25",
  "compteDemo": 50000,
  "risquePct": 1,
@@ -88,7 +88,7 @@
   {
    "marche": "USD/JPY",
    "jour": "2026-11-27",
-   "prix": 159.281,
+   "prix": 159.515,
    "vote": -2,
    "avis": [
     {
@@ -120,8 +120,8 @@
   },
   {
    "marche": "Or (XAU/USD)",
-   "jour": "2026-11-25",
-   "prix": 3668.5,
+   "jour": "2026-11-27",
+   "prix": 3639.6,
    "vote": -6,
    "avis": [
     {
@@ -149,7 +149,7 @@
      "avis": -1
     }
    ],
-   "variationJour": 118.66
+   "variationJour": 121.43
   }
  ],
  "demo": {
@@ -184,12 +184,12 @@
     "marche": "Or (XAU/USD)",
     "sens": -1,
     "jourSignal": "2026-11-25",
-    "jourEntree": "2026-11-28",
-    "entree": 3619.8,
-    "stop": 3975.78,
+    "jourEntree": "2026-11-27",
+    "entree": 3590.3,
+    "stop": 3946.28,
     "confiance": 6,
     "ecartStop": 355.978545853523,
-    "prixActuel": 3668.5,
+    "prixActuel": 3639.6,
     "Rlatent": -0.14,
     "sortieAnnoncee": false
    }
