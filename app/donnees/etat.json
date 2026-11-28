@@ -1,6 +1,6 @@
 {
  "application": "PipZen",
- "misAJour": "2026-11-27T16:47:22.441Z",
+ "misAJour": "2026-11-28T01:29:18.181Z",
  "departDemo": "2026-11-25",
  "compteDemo": 50000,
  "risquePct": 1,
@@ -21,8 +21,8 @@
  "marches": [
   {
    "marche": "EUR/USD",
-   "jour": "2026-11-26",
-   "prix": 1.09421,
+   "jour": "2026-11-27",
+   "prix": 1.09721,
    "vote": -6,
    "avis": [
     {
@@ -50,12 +50,12 @@
      "avis": -1
     }
    ],
-   "variationJour": 0.00702
+   "variationJour": 0.00684
   },
   {
    "marche": "GBP/USD",
-   "jour": "2026-11-26",
-   "prix": 1.31026,
+   "jour": "2026-11-27",
+   "prix": 1.31074,
    "vote": -6,
    "avis": [
     {
@@ -83,12 +83,12 @@
      "avis": -1
     }
    ],
-   "variationJour": 0.00829
+   "variationJour": 0.00788
   },
   {
    "marche": "USD/JPY",
-   "jour": "2026-11-26",
-   "prix": 159.509,
+   "jour": "2026-11-27",
+   "prix": 159.281,
    "vote": -2,
    "avis": [
     {
@@ -116,12 +116,12 @@
      "avis": -1
     }
    ],
-   "variationJour": 0.855
+   "variationJour": 0.817
   },
   {
    "marche": "Or (XAU/USD)",
    "jour": "2026-11-25",
-   "prix": 3654.8,
+   "prix": 3668.5,
    "vote": -6,
    "avis": [
     {
@@ -163,8 +163,8 @@
     "stop": 1.11931,
     "confiance": 6,
     "ecartStop": 0.022263610616429647,
-    "prixActuel": 1.09421,
-    "Rlatent": 0.12,
+    "prixActuel": 1.09721,
+    "Rlatent": -0.01,
     "sortieAnnoncee": false
    },
    {
@@ -176,21 +176,21 @@
     "stop": 1.33782,
     "confiance": 6,
     "ecartStop": 0.026672832057468315,
-    "prixActuel": 1.31026,
-    "Rlatent": 0.03,
+    "prixActuel": 1.31074,
+    "Rlatent": 0.01,
     "sortieAnnoncee": false
    },
    {
     "marche": "Or (XAU/USD)",
     "sens": -1,
     "jourSignal": "2026-11-25",
-    "jourEntree": "2026-11-27",
+    "jourEntree": "2026-11-28",
     "entree": 3619.8,
     "stop": 3975.78,
     "confiance": 6,
     "ecartStop": 355.978545853523,
-    "prixActuel": 3654.8,
-    "Rlatent": -0.1,
+    "prixActuel": 3668.5,
+    "Rlatent": -0.14,
     "sortieAnnoncee": false
    }
   ],
@@ -201,7 +201,7 @@
    "gagnantes": 0,
    "reussitePct": 0,
    "resultatPct": 0,
-   "latentPct": 0,
+   "latentPct": -0.1,
    "chuteMaxPct": 0,
    "parAnnee": [],
    "courbe": []
@@ -1605,6 +1605,7 @@
   "ouverture:EUR/USD:2026-11-26",
   "ouverture:GBP/USD:2026-11-26",
   "ouverture:Or (XAU/USD):2026-11-26",
-  "ouverture:Or (XAU/USD):2026-11-27"
+  "ouverture:Or (XAU/USD):2026-11-27",
+  "ouverture:Or (XAU/USD):2026-11-28"
  ]
 }
